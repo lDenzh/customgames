@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CustomGames</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style type="text/css">
+        #teams {
+            display: none;
+        }
+        #knapp {
+            transform: scale(2);
+            margin-left: 135px;
+        }
+        h1 {
+            text-align: center;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+            color: whitesmoke;
+        }
+
+        body {
+            background-image: url("https://wallpapercave.com/wp/wp2635081.png");
+        }
+
+        p {
+            color: white;
+        }
+
+        #hidden input {
+            width: 200px;
+
+        }
+
+        @media only screen and (max-width: 1024px) {
+            h1 { font-size: 45px !important; }
+        }
+
+        #team1, #team2 {
+            text-align: center;
+            color: white;
+            padding-top: 30px;
+            font-family: "Calibri Light", "sans-serif";
+            font-size: xx-large;
+        }
+
+        #team1 p, #team2 p {
+            padding-right: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        input {
+            margin-left: 60px;
+        }
+
+        th{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1 class="display-3">LoL: Custom Games Team Generator</h1>
+
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></br></div>
+        <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+        <div id="team1" class="col-md-4"></div>
+        <div id="hidden" class="col-md-4"></div>
+        <div id="team2" class="col-md-4"></div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <button type="button" class="btn btn-success" id="knapp" style="resize: both">Start</button><button type="button" class="btn btn-primary" id="teams">Make teams</button>
+        </div>
+        <div class="col-md-4">
+            <p>A project by <it>denzh</it> and CheekyGeek </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
